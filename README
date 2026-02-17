@@ -1,0 +1,35 @@
+# Social Media Content Analyzer
+
+## Overview
+This application analyzes social media content from uploaded PDF or image files and provides engagement improvement suggestions.
+
+## Features
+- PDF text extraction using pdfplumber
+- OCR text extraction using Tesseract
+- Engagement optimization suggestions
+- Basic error handling
+- FastAPI auto-generated documentation
+
+## Tech Stack
+- Python
+- FastAPI
+- pdfplumber
+- pytesseract
+- Pillow
+
+## How to Run Locally
+
+1. Create virtual environment:
+   python -m venv venv
+
+2. Activate:
+   .\venv\Scripts\Activate
+
+3. Install dependencies:
+   pip install -r requirements.txt
+
+4. Run:
+   uvicorn main:app --reload
+
+Access API docs at:
+http://127.0.0.1:8000/docs
